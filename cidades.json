@@ -1,0 +1,1710 @@
+{
+  "África do Sul": [
+    {
+      "cidade": "Durban",
+      "latitude": -29.8587,
+      "longitude": 31.0218
+    },
+    {
+      "cidade": "Gqeberha",
+      "latitude": -33.9608,
+      "longitude": 25.6022
+    },
+    {
+      "cidade": "Mthatha",
+      "latitude": -31.5889,
+      "longitude": 28.7844
+    }
+  ],
+  "Albânia": [
+    {
+      "cidade": "Shkodër",
+      "latitude": 42.0693,
+      "longitude": 19.5033
+    },
+    {
+      "cidade": "Vlorë",
+      "latitude": 40.4658,
+      "longitude": 19.4859
+    }
+  ],
+  "Alemanha": [
+    {
+      "cidade": "Colônia",
+      "latitude": 50.9375,
+      "longitude": 6.9603
+    },
+    {
+      "cidade": "Düsseldorf",
+      "latitude": 51.2277,
+      "longitude": 6.7735
+    },
+    {
+      "cidade": "Leipzig",
+      "latitude": 51.3397,
+      "longitude": 12.3731
+    }
+  ],
+  "Arábia Saudita": [
+    {
+      "cidade": "Dammam",
+      "latitude": 26.4207,
+      "longitude": 50.0888
+    },
+    {
+      "cidade": "Jeddah",
+      "latitude": 21.4858,
+      "longitude": 39.1925
+    },
+    {
+      "cidade": "Medina",
+      "latitude": 24.5247,
+      "longitude": 39.5692
+    }
+  ],
+  "Argélia": [
+    {
+      "cidade": "Constantina",
+      "latitude": 36.365,
+      "longitude": 6.6147
+    },
+    {
+      "cidade": "Orã",
+      "latitude": 35.6987,
+      "longitude": -0.6349
+    }
+  ],
+  "Argentina": [
+    {
+      "cidade": "Córdoba",
+      "latitude": -31.4201,
+      "longitude": -64.1888
+    },
+    {
+      "cidade": "Mar del Plata",
+      "latitude": -38.0055,
+      "longitude": -57.5562
+    },
+    {
+      "cidade": "Mendoza",
+      "latitude": -32.8897,
+      "longitude": -68.8444
+    },
+    {
+      "cidade": "Rosário",
+      "latitude": -32.9468,
+      "longitude": -60.6393
+    },
+    {
+      "cidade": "Santa Fé",
+      "latitude": -31.6333,
+      "longitude": -60.7
+    }
+  ],
+  "Armênia": [
+    {
+      "cidade": "Gyumri",
+      "latitude": 40.7942,
+      "longitude": 43.8453
+    },
+    {
+      "cidade": "Vanadzor",
+      "latitude": 40.8128,
+      "longitude": 44.4883
+    }
+  ],
+  "Austrália": [
+    {
+      "cidade": "Adelaide",
+      "latitude": -34.9285,
+      "longitude": 138.6007
+    },
+    {
+      "cidade": "Brisbane",
+      "latitude": -27.4705,
+      "longitude": 153.026
+    },
+    {
+      "cidade": "Geelong",
+      "latitude": -38.1499,
+      "longitude": 144.3617
+    },
+    {
+      "cidade": "Gold Coast",
+      "latitude": -28.0167,
+      "longitude": 153.4
+    },
+    {
+      "cidade": "Melbourne",
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    },
+    {
+      "cidade": "Newcastle",
+      "latitude": -32.9283,
+      "longitude": 151.7817
+    },
+    {
+      "cidade": "Perth",
+      "latitude": -31.9505,
+      "longitude": 115.8605
+    },
+    {
+      "cidade": "Wollongong",
+      "latitude": -34.4278,
+      "longitude": 150.8931
+    }
+  ],
+  "Azerbaijão": [
+    {
+      "cidade": "Ganja",
+      "latitude": 40.6828,
+      "longitude": 46.3606
+    }
+  ],
+  "Bangladesh": [
+    {
+      "cidade": "Chittagong",
+      "latitude": 22.3569,
+      "longitude": 91.7832
+    },
+    {
+      "cidade": "Khulna",
+      "latitude": 22.8456,
+      "longitude": 89.5403
+    },
+    {
+      "cidade": "Sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687
+    }
+  ],
+  "Belarus": [
+    {
+      "cidade": "Brest",
+      "latitude": 52.0976,
+      "longitude": 23.7341
+    },
+    {
+      "cidade": "Gomel",
+      "latitude": 52.4345,
+      "longitude": 30.9754
+    }
+  ],
+  "Bélgica": [
+    {
+      "cidade": "Antuérpia",
+      "latitude": 51.2194,
+      "longitude": 4.4025
+    },
+    {
+      "cidade": "Gante",
+      "latitude": 51.0543,
+      "longitude": 3.7174
+    },
+    {
+      "cidade": "Liège",
+      "latitude": 50.6326,
+      "longitude": 5.5797
+    }
+  ],
+  "Benin": [
+    {
+      "cidade": "Parakou",
+      "latitude": 9.3372,
+      "longitude": 2.6303
+    }
+  ],
+  "Bolívia": [
+    {
+      "cidade": "Cochabamba",
+      "latitude": -17.3895,
+      "longitude": -66.1568
+    },
+    {
+      "cidade": "Santa Cruz de la Sierra",
+      "latitude": -17.7833,
+      "longitude": -63.1821
+    },
+    {
+      "cidade": "Tarija",
+      "latitude": -21.5355,
+      "longitude": -64.7296
+    }
+  ],
+  "Bósnia e Herzegovina": [
+    {
+      "cidade": "Banja Luka",
+      "latitude": 44.7722,
+      "longitude": 17.191
+    },
+    {
+      "cidade": "Mostar",
+      "latitude": 43.3438,
+      "longitude": 17.8078
+    }
+  ],
+  "Brasil": [
+    {
+      "cidade": "Campinas",
+      "latitude": -22.9099,
+      "longitude": -47.0626
+    },
+    {
+      "cidade": "Caxias do Sul",
+      "latitude": -29.1678,
+      "longitude": -51.1794
+    },
+    {
+      "cidade": "Joinville",
+      "latitude": -26.3045,
+      "longitude": -48.8487
+    },
+    {
+      "cidade": "Londrina",
+      "latitude": -23.3045,
+      "longitude": -51.1696
+    },
+    {
+      "cidade": "Pelotas",
+      "latitude": -31.7654,
+      "longitude": -52.3376
+    },
+    {
+      "cidade": "Ribeirão Preto",
+      "latitude": -21.1704,
+      "longitude": -47.8103
+    },
+    {
+      "cidade": "Venâncio Aires",
+      "latitude": -29.6139,
+      "longitude": -52.1931
+    }
+  ],
+  "Bulgária": [
+    {
+      "cidade": "Plovdiv",
+      "latitude": 42.1354,
+      "longitude": 24.7453
+    },
+    {
+      "cidade": "Varna",
+      "latitude": 43.2141,
+      "longitude": 27.9147
+    }
+  ],
+  "Burkina Faso": [
+    {
+      "cidade": "Bobo-Dioulasso",
+      "latitude": 11.1772,
+      "longitude": -4.2979
+    }
+  ],
+  "Camarões": [
+    {
+      "cidade": "Bamenda",
+      "latitude": 5.9631,
+      "longitude": 10.1591
+    },
+    {
+      "cidade": "Banyo",
+      "latitude": 6.75,
+      "longitude": 11.8167
+    },
+    {
+      "cidade": "Douala",
+      "latitude": 4.0511,
+      "longitude": 9.7679
+    },
+    {
+      "cidade": "Garoua",
+      "latitude": 9.3014,
+      "longitude": 13.3977
+    }
+  ],
+  "Canadá": [
+    {
+      "cidade": "Calgary",
+      "latitude": 51.0447,
+      "longitude": -114.0719
+    },
+    {
+      "cidade": "Edmonton",
+      "latitude": 53.5461,
+      "longitude": -113.4938
+    },
+    {
+      "cidade": "Hamilton",
+      "latitude": 43.2557,
+      "longitude": -79.8711
+    },
+    {
+      "cidade": "London",
+      "latitude": 42.9849,
+      "longitude": -81.2453
+    }
+  ],
+  "Cazaquistão": [
+    {
+      "cidade": "Almaty",
+      "latitude": 43.222,
+      "longitude": 76.8512
+    },
+    {
+      "cidade": "Karaganda",
+      "latitude": 49.8047,
+      "longitude": 73.1094
+    },
+    {
+      "cidade": "Shymkent",
+      "latitude": 42.3417,
+      "longitude": 69.5901
+    }
+  ],
+  "Chile": [
+    {
+      "cidade": "Antofagasta",
+      "latitude": -23.6509,
+      "longitude": -70.3975
+    },
+    {
+      "cidade": "Concepción",
+      "latitude": -36.8201,
+      "longitude": -73.0444
+    },
+    {
+      "cidade": "Valdivia",
+      "latitude": -39.8196,
+      "longitude": -73.2452
+    },
+    {
+      "cidade": "Viña del Mar",
+      "latitude": -33.0245,
+      "longitude": -71.5518
+    }
+  ],
+  "China": [
+    {
+      "cidade": "Chengdu",
+      "latitude": 30.5728,
+      "longitude": 104.0668
+    },
+    {
+      "cidade": "Chongqing",
+      "latitude": 29.4316,
+      "longitude": 106.9123
+    },
+    {
+      "cidade": "Guangzhou",
+      "latitude": 23.1291,
+      "longitude": 113.2644
+    },
+    {
+      "cidade": "Hangzhou",
+      "latitude": 30.2741,
+      "longitude": 120.1551
+    },
+    {
+      "cidade": "Huangshan",
+      "latitude": 29.7147,
+      "longitude": 118.3375
+    },
+    {
+      "cidade": "Nanjing",
+      "latitude": 32.0603,
+      "longitude": 118.7969
+    },
+    {
+      "cidade": "Ningbo",
+      "latitude": 29.8683,
+      "longitude": 121.544
+    },
+    {
+      "cidade": "Qingdao",
+      "latitude": 36.0671,
+      "longitude": 120.3826
+    },
+    {
+      "cidade": "Shenzhen",
+      "latitude": 22.5431,
+      "longitude": 114.0579
+    },
+    {
+      "cidade": "Suzhou",
+      "latitude": 31.299,
+      "longitude": 120.5853
+    },
+    {
+      "cidade": "Tianjin",
+      "latitude": 39.3434,
+      "longitude": 117.3616
+    },
+    {
+      "cidade": "Wuhan",
+      "latitude": 30.5928,
+      "longitude": 114.3055
+    },
+    {
+      "cidade": "Xiamen",
+      "latitude": 24.4798,
+      "longitude": 118.0894
+    }
+  ],
+  "Colômbia": [
+    {
+      "cidade": "Barranquilla",
+      "latitude": 10.9685,
+      "longitude": -74.7813
+    },
+    {
+      "cidade": "Bucaramanga",
+      "latitude": 7.1254,
+      "longitude": -73.1198
+    },
+    {
+      "cidade": "Cali",
+      "latitude": 3.4516,
+      "longitude": -76.532
+    },
+    {
+      "cidade": "Neiva",
+      "latitude": 2.9273,
+      "longitude": -75.2819
+    }
+  ],
+  "Coreia do Sul": [
+    {
+      "cidade": "Busan",
+      "latitude": 35.1796,
+      "longitude": 129.0756
+    },
+    {
+      "cidade": "Daegu",
+      "latitude": 35.8714,
+      "longitude": 128.6014
+    },
+    {
+      "cidade": "Daejeon",
+      "latitude": 36.3504,
+      "longitude": 127.3845
+    },
+    {
+      "cidade": "Incheon",
+      "latitude": 37.4563,
+      "longitude": 126.7052
+    }
+  ],
+  "Costa Rica": [
+    {
+      "cidade": "Alajuela",
+      "latitude": 10.0162,
+      "longitude": -84.2116
+    },
+    {
+      "cidade": "Liberia",
+      "latitude": 10.6346,
+      "longitude": -85.4407
+    }
+  ],
+  "Costa do Marfim": [
+    {
+      "cidade": "Bouaké",
+      "latitude": 7.6939,
+      "longitude": -5.0303
+    },
+    {
+      "cidade": "Grand-Bassam",
+      "latitude": 5.21,
+      "longitude": -3.7388
+    }
+  ],
+  "Croácia": [
+    {
+      "cidade": "Rijeka",
+      "latitude": 45.3271,
+      "longitude": 14.4422
+    },
+    {
+      "cidade": "Split",
+      "latitude": 43.5081,
+      "longitude": 16.4402
+    }
+  ],
+  "Cuba": [
+    {
+      "cidade": "Holguín",
+      "latitude": 20.8872,
+      "longitude": -76.2631
+    },
+    {
+      "cidade": "Santiago de Cuba",
+      "latitude": 20.0208,
+      "longitude": -75.8267
+    }
+  ],
+  "Dinamarca": [
+    {
+      "cidade": "Aarhus",
+      "latitude": 56.1629,
+      "longitude": 10.2039
+    },
+    {
+      "cidade": "Odense",
+      "latitude": 55.4038,
+      "longitude": 10.4024
+    }
+  ],
+  "Egito": [
+    {
+      "cidade": "Alexandria",
+      "latitude": 31.2001,
+      "longitude": 29.9187
+    },
+    {
+      "cidade": "Hurghada",
+      "latitude": 27.2579,
+      "longitude": 33.8116
+    }
+  ],
+  "El Salvador": [
+    {
+      "cidade": "San Miguel",
+      "latitude": 13.4833,
+      "longitude": -88.1833
+    },
+    {
+      "cidade": "Santa Ana",
+      "latitude": 13.9942,
+      "longitude": -89.5597
+    }
+  ],
+  "Emirados Árabes Unidos": [
+    {
+      "cidade": "Sharjah",
+      "latitude": 25.3463,
+      "longitude": 55.4209
+    }
+  ],
+  "Equador": [
+    {
+      "cidade": "Cuenca",
+      "latitude": -2.9001,
+      "longitude": -79.0059
+    },
+    {
+      "cidade": "Guayaquil",
+      "latitude": -2.1894,
+      "longitude": -79.8891
+    },
+    {
+      "cidade": "Ibarra",
+      "latitude": 0.3517,
+      "longitude": -78.1223
+    },
+    {
+      "cidade": "Manta",
+      "latitude": -0.9677,
+      "longitude": -80.7089
+    }
+  ],
+  "Eslováquia": [
+    {
+      "cidade": "Košice",
+      "latitude": 48.7164,
+      "longitude": 21.2611
+    }
+  ],
+  "Eslovênia": [
+    {
+      "cidade": "Koper",
+      "latitude": 45.5481,
+      "longitude": 13.7302
+    },
+    {
+      "cidade": "Maribor",
+      "latitude": 46.5547,
+      "longitude": 15.6459
+    }
+  ],
+  "Espanha": [
+    {
+      "cidade": "Barcelona",
+      "latitude": 41.3879,
+      "longitude": 2.1699
+    },
+    {
+      "cidade": "Bilbao",
+      "latitude": 43.263,
+      "longitude": -2.935
+    },
+    {
+      "cidade": "Sevilha",
+      "latitude": 37.3891,
+      "longitude": -5.9845
+    },
+    {
+      "cidade": "Zaragoza",
+      "latitude": 41.6488,
+      "longitude": -0.8891
+    }
+  ],
+  "Estados Unidos": [
+    {
+      "cidade": "Albuquerque",
+      "latitude": 35.0844,
+      "longitude": -106.6504
+    },
+    {
+      "cidade": "Buffalo",
+      "latitude": 42.8864,
+      "longitude": -78.8784
+    },
+    {
+      "cidade": "Charlotte",
+      "latitude": 35.2271,
+      "longitude": -80.8431
+    },
+    {
+      "cidade": "Cincinnati",
+      "latitude": 39.1031,
+      "longitude": -84.512
+    },
+    {
+      "cidade": "Cleveland",
+      "latitude": 41.4993,
+      "longitude": -81.6944
+    },
+    {
+      "cidade": "Columbus",
+      "latitude": 39.9612,
+      "longitude": -82.9988
+    },
+    {
+      "cidade": "El Paso",
+      "latitude": 31.7619,
+      "longitude": -106.485
+    },
+    {
+      "cidade": "Kansas City",
+      "latitude": 39.0997,
+      "longitude": -94.5786
+    },
+    {
+      "cidade": "Louisville",
+      "latitude": 38.2527,
+      "longitude": -85.7585
+    },
+    {
+      "cidade": "Milwaukee",
+      "latitude": 43.0389,
+      "longitude": -87.9065
+    },
+    {
+      "cidade": "Minneapolis",
+      "latitude": 44.9778,
+      "longitude": -93.265
+    },
+    {
+      "cidade": "New York",
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    {
+      "cidade": "Omaha",
+      "latitude": 41.2565,
+      "longitude": -95.9345
+    },
+    {
+      "cidade": "Pittsburgh",
+      "latitude": 40.4406,
+      "longitude": -79.9959
+    },
+    {
+      "cidade": "Raleigh",
+      "latitude": 35.7796,
+      "longitude": -78.6382
+    },
+    {
+      "cidade": "St. Louis",
+      "latitude": 38.627,
+      "longitude": -90.1994
+    },
+    {
+      "cidade": "Tucson",
+      "latitude": 32.2226,
+      "longitude": -110.9747
+    }
+  ],
+  "Estônia": [
+    {
+      "cidade": "Tartu",
+      "latitude": 58.378,
+      "longitude": 26.729
+    }
+  ],
+  "Fiji": [
+    {
+      "cidade": "Lautoka",
+      "latitude": -17.6242,
+      "longitude": 177.4528
+    },
+    {
+      "cidade": "Nadi",
+      "latitude": -17.8034,
+      "longitude": 177.4166
+    }
+  ],
+  "Filipinas": [
+    {
+      "cidade": "Cagayan de Oro",
+      "latitude": 8.4542,
+      "longitude": 124.6319
+    },
+    {
+      "cidade": "Cebu",
+      "latitude": 10.3157,
+      "longitude": 123.8854
+    },
+    {
+      "cidade": "Davao",
+      "latitude": 7.1907,
+      "longitude": 125.4504
+    },
+    {
+      "cidade": "Iloilo",
+      "latitude": 10.7202,
+      "longitude": 122.5621
+    }
+  ],
+  "Finlândia": [
+    {
+      "cidade": "Tampere",
+      "latitude": 61.4978,
+      "longitude": 23.761
+    },
+    {
+      "cidade": "Turku",
+      "latitude": 60.4518,
+      "longitude": 22.2666
+    }
+  ],
+  "França": [
+    {
+      "cidade": "Bordeaux",
+      "latitude": 44.8378,
+      "longitude": -0.5792
+    },
+    {
+      "cidade": "Le Mans",
+      "latitude": 48.0061,
+      "longitude": 0.1996
+    },
+    {
+      "cidade": "Lille",
+      "latitude": 50.6292,
+      "longitude": 3.0573
+    },
+    {
+      "cidade": "Lyon",
+      "latitude": 45.764,
+      "longitude": 4.8357
+    },
+    {
+      "cidade": "Nice",
+      "latitude": 43.7102,
+      "longitude": 7.262
+    }
+  ],
+  "Gana": [
+    {
+      "cidade": "Kumasi",
+      "latitude": 6.6885,
+      "longitude": -1.6244
+    },
+    {
+      "cidade": "Takoradi",
+      "latitude": 4.9016,
+      "longitude": -1.7831
+    }
+  ],
+  "Geórgia": [
+    {
+      "cidade": "Batumi",
+      "latitude": 41.6168,
+      "longitude": 41.6367
+    },
+    {
+      "cidade": "Kutaisi",
+      "latitude": 42.2679,
+      "longitude": 42.6946
+    }
+  ],
+  "Grécia": [
+    {
+      "cidade": "Patras",
+      "latitude": 38.2466,
+      "longitude": 21.7346
+    },
+    {
+      "cidade": "Thessaloniki",
+      "latitude": 40.6401,
+      "longitude": 22.9444
+    }
+  ],
+  "Guatemala": [
+    {
+      "cidade": "Quetzaltenango",
+      "latitude": 14.8347,
+      "longitude": -91.5181
+    }
+  ],
+  "Haiti": [
+    {
+      "cidade": "Cap-Haïtien",
+      "latitude": 19.7595,
+      "longitude": -72.2008
+    }
+  ],
+  "Honduras": [
+    {
+      "cidade": "La Ceiba",
+      "latitude": 15.7835,
+      "longitude": -86.7913
+    },
+    {
+      "cidade": "San Pedro Sula",
+      "latitude": 15.5042,
+      "longitude": -88.025
+    }
+  ],
+  "Hungria": [
+    {
+      "cidade": "Debrecen",
+      "latitude": 47.5316,
+      "longitude": 21.6273
+    },
+    {
+      "cidade": "Ozora",
+      "latitude": 46.7517,
+      "longitude": 18.3986
+    },
+    {
+      "cidade": "Szeged",
+      "latitude": 46.253,
+      "longitude": 20.1414
+    }
+  ],
+  "Indonésia": [
+    {
+      "cidade": "Bandung",
+      "latitude": -6.9175,
+      "longitude": 107.6191
+    },
+    {
+      "cidade": "Medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722
+    },
+    {
+      "cidade": "Semarang",
+      "latitude": -6.9667,
+      "longitude": 110.4167
+    },
+    {
+      "cidade": "Surabaya",
+      "latitude": -7.2575,
+      "longitude": 112.7521
+    }
+  ],
+  "Irlanda": [
+    {
+      "cidade": "Cork",
+      "latitude": 51.8985,
+      "longitude": -8.4756
+    },
+    {
+      "cidade": "Galway",
+      "latitude": 53.2707,
+      "longitude": -9.0568
+    }
+  ],
+  "Irã": [
+    {
+      "cidade": "Isfahan",
+      "latitude": 32.6546,
+      "longitude": 51.668
+    },
+    {
+      "cidade": "Mashhad",
+      "latitude": 36.2972,
+      "longitude": 59.6067
+    },
+    {
+      "cidade": "Shiraz",
+      "latitude": 29.5918,
+      "longitude": 52.5837
+    },
+    {
+      "cidade": "Tabriz",
+      "latitude": 38.08,
+      "longitude": 46.2919
+    }
+  ],
+  "Itália": [
+    {
+      "cidade": "Bari",
+      "latitude": 41.1171,
+      "longitude": 16.8719
+    },
+    {
+      "cidade": "Bolonha",
+      "latitude": 44.4949,
+      "longitude": 11.3426
+    },
+    {
+      "cidade": "Palermo",
+      "latitude": 38.1157,
+      "longitude": 13.3615
+    },
+    {
+      "cidade": "Turim",
+      "latitude": 45.0703,
+      "longitude": 7.6869
+    },
+    {
+      "cidade": "Verona",
+      "latitude": 45.4384,
+      "longitude": 10.9916
+    }
+  ],
+  "Jamaica": [
+    {
+      "cidade": "Montego Bay",
+      "latitude": 18.4714,
+      "longitude": -77.9229
+    }
+  ],
+  "Japão": [
+    {
+      "cidade": "Fukuoka",
+      "latitude": 33.5904,
+      "longitude": 130.4017
+    },
+    {
+      "cidade": "Kobe",
+      "latitude": 34.6901,
+      "longitude": 135.1955
+    },
+    {
+      "cidade": "Maniwa",
+      "latitude": 35.0934,
+      "longitude": 133.7431
+    },
+    {
+      "cidade": "Nagoya",
+      "latitude": 35.1815,
+      "longitude": 136.9066
+    },
+    {
+      "cidade": "Sapporo",
+      "latitude": 43.0618,
+      "longitude": 141.3545
+    },
+    {
+      "cidade": "Yokohama",
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  ],
+  "Kosovo": [
+    {
+      "cidade": "Peja",
+      "latitude": 42.6593,
+      "longitude": 20.2887
+    },
+    {
+      "cidade": "Prizren",
+      "latitude": 42.2153,
+      "longitude": 20.7415
+    }
+  ],
+  "Letônia": [
+    {
+      "cidade": "Liepāja",
+      "latitude": 56.5047,
+      "longitude": 21.0108
+    }
+  ],
+  "Lituânia": [
+    {
+      "cidade": "Kaunas",
+      "latitude": 54.8985,
+      "longitude": 23.9036
+    }
+  ],
+  "Líbia": [
+    {
+      "cidade": "Benghazi",
+      "latitude": 32.1167,
+      "longitude": 20.0667
+    }
+  ],
+  "Macedônia do Norte": [
+    {
+      "cidade": "Bitola",
+      "latitude": 41.0319,
+      "longitude": 21.3347
+    },
+    {
+      "cidade": "Ohrid",
+      "latitude": 41.1172,
+      "longitude": 20.8016
+    }
+  ],
+  "Malásia": [
+    {
+      "cidade": "George Town",
+      "latitude": 5.4141,
+      "longitude": 100.3288
+    },
+    {
+      "cidade": "Ipoh",
+      "latitude": 4.5975,
+      "longitude": 101.0901
+    },
+    {
+      "cidade": "Johor Bahru",
+      "latitude": 1.4927,
+      "longitude": 103.7414
+    },
+    {
+      "cidade": "Kuching",
+      "latitude": 1.5533,
+      "longitude": 110.3592
+    }
+  ],
+  "Mali": [
+    {
+      "cidade": "Sikasso",
+      "latitude": 11.3176,
+      "longitude": -5.6665
+    }
+  ],
+  "Marrocos": [
+    {
+      "cidade": "Agadir",
+      "latitude": 30.4278,
+      "longitude": -9.5981
+    },
+    {
+      "cidade": "Casablanca",
+      "latitude": 33.5731,
+      "longitude": -7.5898
+    },
+    {
+      "cidade": "Marrakesh",
+      "latitude": 31.6295,
+      "longitude": -7.9811
+    }
+  ],
+  "México": [
+    {
+      "cidade": "León",
+      "latitude": 21.1221,
+      "longitude": -101.6826
+    },
+    {
+      "cidade": "Mérida",
+      "latitude": 20.9674,
+      "longitude": -89.5926
+    },
+    {
+      "cidade": "Puebla",
+      "latitude": 19.0414,
+      "longitude": -98.2063
+    },
+    {
+      "cidade": "Querétaro",
+      "latitude": 20.5888,
+      "longitude": -100.3899
+    },
+    {
+      "cidade": "Tijuana",
+      "latitude": 32.5149,
+      "longitude": -117.0382
+    }
+  ],
+  "Moçambique": [
+    {
+      "cidade": "Beira",
+      "latitude": -19.8316,
+      "longitude": 34.8389
+    },
+    {
+      "cidade": "Nacala",
+      "latitude": -14.5626,
+      "longitude": 40.6728
+    }
+  ],
+  "Nicarágua": [
+    {
+      "cidade": "Chinandega",
+      "latitude": 12.6294,
+      "longitude": -87.1311
+    }
+  ],
+  "Nigéria": [
+    {
+      "cidade": "Abeokuta",
+      "latitude": 7.1475,
+      "longitude": 3.3619
+    },
+    {
+      "cidade": "Ibadan",
+      "latitude": 7.3775,
+      "longitude": 3.947
+    },
+    {
+      "cidade": "Kano",
+      "latitude": 12.0022,
+      "longitude": 8.592
+    },
+    {
+      "cidade": "Warri",
+      "latitude": 5.5174,
+      "longitude": 5.7501
+    }
+  ],
+  "Noruega": [
+    {
+      "cidade": "Bergen",
+      "latitude": 60.3925,
+      "longitude": 5.3233
+    },
+    {
+      "cidade": "Trondheim",
+      "latitude": 63.4305,
+      "longitude": 10.3951
+    }
+  ],
+  "Nova Zelândia": [
+    {
+      "cidade": "Christchurch",
+      "latitude": -43.5321,
+      "longitude": 172.6362
+    },
+    {
+      "cidade": "Dunedin",
+      "latitude": -45.8788,
+      "longitude": 170.5028
+    },
+    {
+      "cidade": "Queenstown",
+      "latitude": -45.0312,
+      "longitude": 168.6626
+    }
+  ],
+  "Omã": [
+    {
+      "cidade": "Salalah",
+      "latitude": 17.0151,
+      "longitude": 54.0924
+    }
+  ],
+  "Panamá": [
+    {
+      "cidade": "David",
+      "latitude": 8.4273,
+      "longitude": -82.4309
+    }
+  ],
+  "Papua-Nova Guiné": [
+    {
+      "cidade": "Lae",
+      "latitude": -6.7262,
+      "longitude": 146.9977
+    },
+    {
+      "cidade": "Mount Hagen",
+      "latitude": -5.8575,
+      "longitude": 144.2269
+    }
+  ],
+  "Paquistão": [
+    {
+      "cidade": "Faisalabad",
+      "latitude": 31.4504,
+      "longitude": 73.135
+    },
+    {
+      "cidade": "Karachi",
+      "latitude": 24.8607,
+      "longitude": 67.0011
+    },
+    {
+      "cidade": "Lahore",
+      "latitude": 31.5204,
+      "longitude": 74.3587
+    },
+    {
+      "cidade": "Multan",
+      "latitude": 30.1575,
+      "longitude": 71.5249
+    }
+  ],
+  "Paraguai": [
+    {
+      "cidade": "Ciudad del Este",
+      "latitude": -25.5097,
+      "longitude": -54.6111
+    },
+    {
+      "cidade": "Encarnación",
+      "latitude": -27.3306,
+      "longitude": -55.8667
+    }
+  ],
+  "Países Baixos": [
+    {
+      "cidade": "Eindhoven",
+      "latitude": 51.4416,
+      "longitude": 5.4697
+    },
+    {
+      "cidade": "Roterdã",
+      "latitude": 51.9244,
+      "longitude": 4.4777
+    },
+    {
+      "cidade": "Utrecht",
+      "latitude": 52.0907,
+      "longitude": 5.1214
+    }
+  ],
+  "Peru": [
+    {
+      "cidade": "Arequipa",
+      "latitude": -16.409,
+      "longitude": -71.5375
+    },
+    {
+      "cidade": "Cusco",
+      "latitude": -13.5319,
+      "longitude": -71.9675
+    },
+    {
+      "cidade": "Trujillo",
+      "latitude": -8.1091,
+      "longitude": -79.0215
+    }
+  ],
+  "Polônia": [
+    {
+      "cidade": "Gdansk",
+      "latitude": 54.352,
+      "longitude": 18.6466
+    },
+    {
+      "cidade": "Poznan",
+      "latitude": 52.4064,
+      "longitude": 16.9252
+    },
+    {
+      "cidade": "Wroclaw",
+      "latitude": 51.1079,
+      "longitude": 17.0385
+    }
+  ],
+  "Portugal": [
+    {
+      "cidade": "Braga",
+      "latitude": 41.5454,
+      "longitude": -8.4265
+    },
+    {
+      "cidade": "Faro",
+      "latitude": 37.0194,
+      "longitude": -7.9322
+    },
+    {
+      "cidade": "Porto",
+      "latitude": 41.1579,
+      "longitude": -8.6291
+    }
+  ],
+  "Quirguistão": [
+    {
+      "cidade": "Karakol",
+      "latitude": 42.4907,
+      "longitude": 78.3936
+    },
+    {
+      "cidade": "Osh",
+      "latitude": 40.514,
+      "longitude": 72.8161
+    }
+  ],
+  "Quênia": [
+    {
+      "cidade": "Kisumu",
+      "latitude": -0.0917,
+      "longitude": 34.768
+    },
+    {
+      "cidade": "Mombasa",
+      "latitude": -4.0435,
+      "longitude": 39.6682
+    },
+    {
+      "cidade": "Nakuru",
+      "latitude": -0.3031,
+      "longitude": 36.08
+    }
+  ],
+  "República Dominicana": [
+    {
+      "cidade": "Santiago de los Caballeros",
+      "latitude": 19.4517,
+      "longitude": -70.697
+    }
+  ],
+  "Romênia": [
+    {
+      "cidade": "Cluj-Napoca",
+      "latitude": 46.7712,
+      "longitude": 23.6236
+    },
+    {
+      "cidade": "Timisoara",
+      "latitude": 45.7537,
+      "longitude": 21.2257
+    }
+  ],
+  "Senegal": [
+    {
+      "cidade": "Saint-Louis",
+      "latitude": 16.0326,
+      "longitude": -16.4818
+    },
+    {
+      "cidade": "Saly",
+      "latitude": 14.4431,
+      "longitude": -17.0267
+    }
+  ],
+  "Suécia": [
+    {
+      "cidade": "Gotemburgo",
+      "latitude": 57.7089,
+      "longitude": 11.9746
+    },
+    {
+      "cidade": "Malmö",
+      "latitude": 55.605,
+      "longitude": 13.0038
+    }
+  ],
+  "Sérvia": [
+    {
+      "cidade": "Nis",
+      "latitude": 43.3209,
+      "longitude": 21.8958
+    },
+    {
+      "cidade": "Novi Sad",
+      "latitude": 45.2671,
+      "longitude": 19.8335
+    }
+  ],
+  "Tailândia": [
+    {
+      "cidade": "Chiang Mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853
+    },
+    {
+      "cidade": "Hat Yai",
+      "latitude": 7.0084,
+      "longitude": 100.4767
+    },
+    {
+      "cidade": "Pattaya",
+      "latitude": 12.9276,
+      "longitude": 100.8771
+    }
+  ],
+  "Taiwan": [
+    {
+      "cidade": "Hsinchu",
+      "latitude": 24.8138,
+      "longitude": 120.9675
+    },
+    {
+      "cidade": "Kaohsiung",
+      "latitude": 22.6273,
+      "longitude": 120.3014
+    },
+    {
+      "cidade": "Taichung",
+      "latitude": 24.1477,
+      "longitude": 120.6736
+    },
+    {
+      "cidade": "Taoyuan",
+      "latitude": 24.9936,
+      "longitude": 121.301
+    }
+  ],
+  "Tajiquistão": [
+    {
+      "cidade": "Khujand",
+      "latitude": 40.2826,
+      "longitude": 69.6222
+    }
+  ],
+  "Tanzânia": [
+    {
+      "cidade": "Arusha",
+      "latitude": -3.3869,
+      "longitude": 36.683
+    },
+    {
+      "cidade": "Mwanza",
+      "latitude": -2.5164,
+      "longitude": 32.9175
+    },
+    {
+      "cidade": "Zanzibar",
+      "latitude": -6.1659,
+      "longitude": 39.2026
+    }
+  ],
+  "Tchéquia": [
+    {
+      "cidade": "Brno",
+      "latitude": 49.1951,
+      "longitude": 16.6068
+    },
+    {
+      "cidade": "Ostrava",
+      "latitude": 49.8209,
+      "longitude": 18.2625
+    }
+  ],
+  "Togo": [
+    {
+      "cidade": "Kpalimé",
+      "latitude": 6.9075,
+      "longitude": 0.6297
+    }
+  ],
+  "Tunísia": [
+    {
+      "cidade": "Sfax",
+      "latitude": 34.7406,
+      "longitude": 10.7603
+    },
+    {
+      "cidade": "Sousse",
+      "latitude": 35.8256,
+      "longitude": 10.6084
+    }
+  ],
+  "Turcomenistão": [
+    {
+      "cidade": "Turkmenabat",
+      "latitude": 39.0733,
+      "longitude": 63.5786
+    }
+  ],
+  "Turquia": [
+    {
+      "cidade": "Adana",
+      "latitude": 37.0,
+      "longitude": 35.3213
+    },
+    {
+      "cidade": "Antalya",
+      "latitude": 36.8969,
+      "longitude": 30.7133
+    },
+    {
+      "cidade": "Bursa",
+      "latitude": 40.1885,
+      "longitude": 29.061
+    },
+    {
+      "cidade": "Gaziantep",
+      "latitude": 37.0662,
+      "longitude": 37.3833
+    },
+    {
+      "cidade": "Izmir",
+      "latitude": 38.4237,
+      "longitude": 27.1428
+    },
+    {
+      "cidade": "Kayseri",
+      "latitude": 38.7205,
+      "longitude": 35.4826
+    }
+  ],
+  "Ucrânia": [
+    {
+      "cidade": "Lviv",
+      "latitude": 49.8397,
+      "longitude": 24.0297
+    }
+  ],
+  "Uganda": [
+    {
+      "cidade": "Jinja",
+      "latitude": 0.4479,
+      "longitude": 33.2026
+    },
+    {
+      "cidade": "Mbarara",
+      "latitude": -0.6072,
+      "longitude": 30.6545
+    }
+  ],
+  "Uruguai": [
+    {
+      "cidade": "Punta del Este",
+      "latitude": -34.9654,
+      "longitude": -54.9458
+    },
+    {
+      "cidade": "Salto",
+      "latitude": -31.3833,
+      "longitude": -57.9667
+    }
+  ],
+  "Uzbequistão": [
+    {
+      "cidade": "Bukhara",
+      "latitude": 39.7681,
+      "longitude": 64.4556
+    },
+    {
+      "cidade": "Namangan",
+      "latitude": 40.9983,
+      "longitude": 71.6726
+    },
+    {
+      "cidade": "Samarcanda",
+      "latitude": 39.6542,
+      "longitude": 66.9597
+    }
+  ],
+  "Venezuela": [
+    {
+      "cidade": "Barquisimeto",
+      "latitude": 10.0678,
+      "longitude": -69.3474
+    },
+    {
+      "cidade": "Maracay",
+      "latitude": 10.2469,
+      "longitude": -67.5958
+    },
+    {
+      "cidade": "Valência",
+      "latitude": 10.162,
+      "longitude": -68.0077
+    }
+  ],
+  "Vietnã": [
+    {
+      "cidade": "Cần Thơ",
+      "latitude": 10.0452,
+      "longitude": 105.7469
+    },
+    {
+      "cidade": "Da Nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022
+    },
+    {
+      "cidade": "Hải Phòng",
+      "latitude": 20.8449,
+      "longitude": 106.6881
+    },
+    {
+      "cidade": "Huế",
+      "latitude": 16.4637,
+      "longitude": 107.5909
+    }
+  ],
+  "Zimbábue": [
+    {
+      "cidade": "Bulawayo",
+      "latitude": -20.15,
+      "longitude": 28.5833
+    },
+    {
+      "cidade": "Mutare",
+      "latitude": -18.9758,
+      "longitude": 32.6719
+    }
+  ],
+  "Zâmbia": [
+    {
+      "cidade": "Livingstone",
+      "latitude": -17.8419,
+      "longitude": 25.8543
+    },
+    {
+      "cidade": "Ndola",
+      "latitude": -12.9906,
+      "longitude": 28.6366
+    }
+  ],
+  "Índia": [
+    {
+      "cidade": "Ahmedabad",
+      "latitude": 23.0225,
+      "longitude": 72.5714
+    },
+    {
+      "cidade": "Coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558
+    },
+    {
+      "cidade": "Indore",
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    {
+      "cidade": "Jaipur",
+      "latitude": 26.9124,
+      "longitude": 75.7873
+    },
+    {
+      "cidade": "Kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673
+    },
+    {
+      "cidade": "Lucknow",
+      "latitude": 26.8467,
+      "longitude": 80.9462
+    },
+    {
+      "cidade": "Pune",
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    {
+      "cidade": "Surat",
+      "latitude": 21.1702,
+      "longitude": 72.8311
+    },
+    {
+      "cidade": "Visakhapatnam",
+      "latitude": 17.6868,
+      "longitude": 83.2185
+    }
+  ]
+}
