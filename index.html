@@ -72,90 +72,101 @@
     .map-wrap { flex: 1; position: relative; }
     #map { width: 100%; height: 100%; background: #0f172a; }
 
-    @media (max-width: 768px) {
-      header { min-height: 56px; padding: 0.7rem 1rem; }
-      header h1 { font-size: 1.15rem; }
+    body.compact-layout header { min-height: 56px; padding: 0.7rem 1rem; }
+    body.compact-layout header h1 { font-size: 1.15rem; }
 
-      .layout {
-        position: relative;
-        display: block;
-        flex: 1 1 auto;
-        min-height: 0;
-      }
-      .map-wrap { position: absolute; inset: 0; }
-      .sidebar {
-        position: absolute;
-        left: 12px;
-        right: 12px;
-        bottom: 12px;
-        width: auto;
-        height: auto;
-        max-height: 58vh;
-        max-height: 58dvh;
-        overflow: hidden;
-        border: 1px solid var(--border);
-        border-radius: 16px;
-        box-shadow: 0 4px 24px rgba(0,0,0,0.45);
-        z-index: 1000;
-        transition: max-height 0.2s ease;
-      }
-      .sidebar:not(.mobile-expanded) { max-height: 56px; }
-      .sidebar.mobile-expanded { overflow-y: auto; }
+    body.compact-layout .layout {
+      position: relative;
+      display: block;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+    body.compact-layout .map-wrap { position: absolute; inset: 0; }
+    body.compact-layout .sidebar {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      width: auto;
+      height: auto;
+      max-height: 62vh;
+      max-height: 62dvh;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.45);
+      z-index: 1000;
+    }
+    body.compact-layout .controls { flex: 0 0 auto; padding: 0.65rem 1rem 0.8rem; border-bottom: 0; }
+    body.compact-layout .mobile-panel-toggle {
+      width: 100%;
+      min-height: 48px;
+      flex: 0 0 48px;
+      padding: 0.5rem 0.85rem;
+      border: 0;
+      border-bottom: 1px solid var(--border);
+      background: #172033;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-family: inherit;
+      cursor: pointer;
+      text-align: left;
+    }
+    body.compact-layout .mobile-panel-toggle__copy { display: flex; flex-direction: column; min-width: 0; }
+    body.compact-layout .mobile-panel-toggle__title { font-size: 0.82rem; font-weight: 600; }
+    body.compact-layout .mobile-panel-toggle__hint { margin-top: 2px; font-size: 0.7rem; color: var(--text-muted); }
+    body.compact-layout .mobile-panel-toggle svg {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+      stroke: var(--text-muted);
+      fill: none;
+      stroke-width: 2;
+      transition: transform 0.2s ease;
+    }
+    body.compact-layout .sidebar.mobile-search-open .mobile-panel-toggle svg { transform: rotate(180deg); }
 
-      .mobile-panel-toggle {
-        width: 100%;
-        min-height: 54px;
-        flex: 0 0 54px;
-        padding: 0.55rem 0.85rem;
-        border: 0;
-        border-bottom: 1px solid var(--border);
-        background: #172033;
-        color: var(--text-main);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        font-family: inherit;
-        cursor: pointer;
-        text-align: left;
-      }
-      .mobile-panel-toggle__copy { display: flex; flex-direction: column; min-width: 0; }
-      .mobile-panel-toggle__title { font-size: 0.82rem; font-weight: 600; }
-      .mobile-panel-toggle__hint { margin-top: 2px; font-size: 0.7rem; color: var(--text-muted); }
-      .mobile-panel-toggle svg {
-        width: 18px;
-        height: 18px;
-        flex: 0 0 auto;
-        stroke: var(--text-muted);
-        fill: none;
-        stroke-width: 2;
-        transition: transform 0.2s ease;
-      }
-      .sidebar.mobile-expanded .mobile-panel-toggle svg { transform: rotate(180deg); }
-
-      .controls { flex-shrink: 0; padding: 0.85rem 1rem 0.75rem; border-bottom: 0; }
-      .sidebar:not(.mobile-expanded) .controls,
-      .sidebar:not(.mobile-expanded) .pins-section { display: none; }
-      .sidebar.mobile-expanded .pins-section {
-        display: block;
-        flex: 0 0 auto;
-        max-height: 16vh;
-        max-height: 16dvh;
-        overflow-y: auto;
-        padding: 0.5rem 1rem 1rem;
-      }
-      .distance-grid { gap: 6px; }
-      .distance-grid button { min-height: 42px; padding: 0.55rem 0.35rem; font-size: 0.76rem; }
-      .distance-grid button.btn-accent { grid-column: 1 / -1; }
-      .autocomplete-list { max-height: 140px; }
+    body.compact-layout .search-field,
+    body.compact-layout .pins-section { display: none; }
+    body.compact-layout .sidebar.mobile-search-open .search-field,
+    body.compact-layout .sidebar.mobile-search-open .pins-section { display: block; }
+    body.compact-layout .sidebar.mobile-search-open { overflow-y: auto; }
+    body.compact-layout .sidebar.mobile-search-open .pins-section {
+      flex: 0 0 auto;
+      max-height: 16vh;
+      max-height: 16dvh;
+      overflow-y: auto;
+      padding: 0.5rem 1rem 1rem;
     }
 
+    body.compact-layout .distance-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+    }
+    body.compact-layout .distance-grid button {
+      min-height: 42px;
+      padding: 0.55rem 0.35rem;
+      font-size: 0.76rem;
+    }
+    body.compact-layout .distance-grid button.btn-accent { grid-column: auto; }
+    body.compact-layout .autocomplete-list { max-height: 140px; }
+
     @media (max-width: 420px) {
-      header { padding: 0.65rem 0.8rem; }
-      .sidebar { left: 8px; right: 8px; bottom: 8px; max-height: 62vh; max-height: 62dvh; }
-      .sidebar.mobile-expanded .pins-section { max-height: 12vh; max-height: 12dvh; }
-      .controls { padding: 0.75rem 0.8rem 0.65rem; }
-      .distance-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      body.compact-layout header { padding: 0.65rem 0.8rem; }
+      body.compact-layout .sidebar { left: 8px; right: 8px; bottom: 8px; }
+      body.compact-layout .controls { padding: 0.6rem 0.8rem 0.7rem; }
+      body.compact-layout .distance-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    body.compact-layout.mobile-panel-top .sidebar {
+      top: 12px;
+      bottom: auto;
+    }
+    @media (max-width: 420px) {
+      body.compact-layout.mobile-panel-top .sidebar { top: 8px; }
     }
 
     .leaflet-popup-content-wrapper { background: var(--panel-bg); color: var(--text-main); border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow); }
@@ -192,22 +203,22 @@
 </header>
 
 <div class="layout">
-  <aside class="sidebar mobile-expanded">
+  <aside class="sidebar">
     <button
       type="button"
       class="mobile-panel-toggle"
       id="mobile-panel-toggle"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="filter-controls pins-section"
     >
       <span class="mobile-panel-toggle__copy">
-        <span class="mobile-panel-toggle__title">Busca e filtros</span>
-        <span class="mobile-panel-toggle__hint" id="mobile-panel-toggle-hint">Recolher painel</span>
+        <span class="mobile-panel-toggle__title">Buscar cidade</span>
+        <span class="mobile-panel-toggle__hint" id="mobile-panel-toggle-hint">Abrir pesquisa</span>
       </span>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
     </button>
     <div class="controls" id="filter-controls">
-      <div class="field">
+      <div class="field search-field">
         <label>1. Buscar Cidade / País</label>
         <div class="input-wrap">
           <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -216,7 +227,7 @@
         </div>
       </div>
 
-      <div class="field">
+      <div class="field distance-field">
         <label>2. Aplicar Raio de Distância</label>
         <div class="distance-grid">
           <button onclick="createPin(0, 800)">0 - 800 km</button>
@@ -318,15 +329,32 @@ const mobilePanelToggle = document.getElementById('mobile-panel-toggle');
 const mobilePanelToggleHint = document.getElementById('mobile-panel-toggle-hint');
 
 mobilePanelToggle.addEventListener('click', () => {
-  const expanded = !sidebar.classList.contains('mobile-expanded');
-  sidebar.classList.toggle('mobile-expanded', expanded);
-  mobilePanelToggle.setAttribute('aria-expanded', String(expanded));
-  mobilePanelToggleHint.textContent = expanded ? 'Recolher painel' : 'Abrir busca e filtros';
+  const searchOpen = !sidebar.classList.contains('mobile-search-open');
+  sidebar.classList.toggle('mobile-search-open', searchOpen);
+  mobilePanelToggle.setAttribute('aria-expanded', String(searchOpen));
+  mobilePanelToggleHint.textContent = searchOpen ? 'Fechar pesquisa' : 'Abrir pesquisa';
 
   window.setTimeout(() => {
     if (map && typeof map.invalidateSize === 'function') map.invalidateSize();
   }, 220);
 });
+
+const compactViewport = window.matchMedia('(max-width: 1024px), (max-width: 1440px) and (pointer: coarse)');
+
+function updateResponsiveMode() {
+  const compact = compactViewport.matches;
+  document.body.classList.toggle('compact-layout', compact);
+  document.body.classList.toggle(
+    'mobile-panel-top',
+    compact && window.innerHeight < window.innerWidth * 2
+  );
+
+  if (map && typeof map.invalidateSize === 'function') map.invalidateSize();
+}
+
+window.addEventListener('resize', updateResponsiveMode, { passive: true });
+window.addEventListener('orientationchange', updateResponsiveMode);
+updateResponsiveMode();
 
 cityInput.addEventListener('input', handleCityInput);
 cityInput.addEventListener('focus', () => {
