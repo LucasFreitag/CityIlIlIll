@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GeoRadius — Explorador de Distâncias</title>
   
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -23,20 +23,19 @@
       --shadow: 0 4px 20px rgba(0,0,0,0.3);
     }
 
-    body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-main); height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-main); height: 100vh; height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
 
-    header { padding: 1rem 1.5rem; background: var(--panel-bg); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; z-index: 10; }
+    header { flex: 0 0 auto; padding: 1rem 1.5rem; background: var(--panel-bg); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; z-index: 10; }
     .logo-mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
     .logo-mark svg { width: 20px; height: 20px; stroke: #fff; fill: none; stroke-width: 2; }
     header h1 { font-family: 'DM Serif Display', serif; font-size: 1.3rem; font-weight: 400; color: var(--text-main); }
     header span { font-size: 0.8rem; color: var(--text-muted); }
 
-    .layout { display: flex; flex: 1; height: calc(100vh - 65px); flex-direction: row; }
+    .layout { display: flex; flex: 1 1 auto; min-height: 0; flex-direction: row; }
 
     .sidebar { width: 360px; background: var(--panel-bg); display: flex; flex-direction: column; border-right: 1px solid var(--border); z-index: 10; }
-    
     .mobile-panel-toggle { display: none; }
-
+    
     .controls { padding: 1.5rem; border-bottom: 1px solid var(--border); flex-shrink: 0; }
     .field label { display: block; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem; }
     
@@ -74,78 +73,101 @@
     #map { width: 100%; height: 100%; background: #0f172a; }
     .osm-dark-tiles { filter: brightness(0.62) invert(1) contrast(2.7) hue-rotate(180deg) saturate(0.35) brightness(0.72); }
 
-    @media (max-width: 768px) {
-      header { min-height: 52px; padding: 0.65rem 0.85rem; }
-      .logo-mark { width: 28px; height: 28px; border-radius: 7px; }
-      .logo-mark svg { width: 18px; height: 18px; }
-      header h1 { font-size: 1.1rem; }
+    body.compact-layout header { min-height: 56px; padding: 0.7rem 1rem; }
+    body.compact-layout header h1 { font-size: 1.15rem; }
 
-      .layout { flex-direction: column; height: calc(100vh - 52px); min-height: 0; }
-      .map-wrap { order: 2; flex: 1 1 auto; min-height: 0; }
-      .sidebar {
-        order: 1;
-        width: 100%;
-        height: auto;
-        max-height: 45vh;
-        flex: 0 0 auto;
-        overflow: hidden;
-        border-right: none;
-        border-top: none;
-        border-bottom: 1px solid var(--border);
-        box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-        z-index: 1000;
-      }
+    body.compact-layout .layout {
+      position: relative;
+      display: block;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+    body.compact-layout .map-wrap { position: absolute; inset: 0; }
+    body.compact-layout .sidebar {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      width: auto;
+      height: auto;
+      max-height: 62vh;
+      max-height: 62dvh;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.45);
+      z-index: 1000;
+    }
+    body.compact-layout .controls { flex: 0 0 auto; padding: 0.65rem 1rem 0.8rem; border-bottom: 0; }
+    body.compact-layout .mobile-panel-toggle {
+      width: 100%;
+      min-height: 48px;
+      flex: 0 0 48px;
+      padding: 0.5rem 0.85rem;
+      border: 0;
+      border-bottom: 1px solid var(--border);
+      background: #172033;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-family: inherit;
+      cursor: pointer;
+      text-align: left;
+    }
+    body.compact-layout .mobile-panel-toggle__copy { display: flex; flex-direction: column; min-width: 0; }
+    body.compact-layout .mobile-panel-toggle__title { font-size: 0.82rem; font-weight: 600; }
+    body.compact-layout .mobile-panel-toggle__hint { margin-top: 2px; font-size: 0.7rem; color: var(--text-muted); }
+    body.compact-layout .mobile-panel-toggle svg {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+      stroke: var(--text-muted);
+      fill: none;
+      stroke-width: 2;
+      transition: transform 0.2s ease;
+    }
+    body.compact-layout .sidebar.mobile-search-open .mobile-panel-toggle svg { transform: rotate(180deg); }
 
-      .mobile-panel-toggle {
-        width: 100%;
-        min-height: 44px;
-        padding: 0.55rem 0.75rem;
-        border: 0;
-        border-bottom: 1px solid var(--border);
-        background: #172033;
-        color: var(--text-main);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        font-family: inherit;
-        cursor: pointer;
-        text-align: left;
-      }
-      .mobile-panel-toggle__copy { display: flex; flex-direction: column; min-width: 0; }
-      .mobile-panel-toggle__title { font-size: 0.78rem; font-weight: 600; }
-      .mobile-panel-toggle__hint { margin-top: 1px; font-size: 0.68rem; color: var(--text-muted); }
-      .mobile-panel-toggle svg { width: 18px; height: 18px; flex: 0 0 auto; stroke: var(--text-muted); fill: none; stroke-width: 2; transition: transform 0.2s ease; }
+    body.compact-layout .search-field,
+    body.compact-layout .pins-section { display: none; }
+    body.compact-layout .sidebar.mobile-search-open .search-field,
+    body.compact-layout .sidebar.mobile-search-open .pins-section { display: block; }
+    body.compact-layout .sidebar.mobile-search-open { overflow-y: auto; }
+    body.compact-layout .sidebar.mobile-search-open .pins-section {
+      flex: 0 0 auto;
+      max-height: 16vh;
+      max-height: 16dvh;
+      overflow-y: auto;
+      padding: 0.5rem 1rem 1rem;
+    }
 
-      .controls { padding: 0.55rem 0.75rem 0.7rem; border-bottom: 0; }
-      .sidebar:not(.mobile-expanded) .search-field,
-      .sidebar:not(.mobile-expanded) .pins-section { display: none; }
-      .sidebar:not(.mobile-expanded) .distance-field label { display: none; }
-      .sidebar:not(.mobile-expanded) .distance-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
-      .sidebar:not(.mobile-expanded) .distance-grid button { min-height: 38px; padding: 0.5rem 0.2rem; font-size: 0.68rem; line-height: 1.15; }
-      .sidebar:not(.mobile-expanded) .distance-grid button.btn-accent { grid-column: auto; }
+    body.compact-layout .distance-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+    }
+    body.compact-layout .distance-grid button {
+      min-height: 42px;
+      padding: 0.55rem 0.35rem;
+      font-size: 0.76rem;
+    }
+    body.compact-layout .distance-grid button.btn-accent { grid-column: auto; }
+    body.compact-layout .autocomplete-list { max-height: 140px; }
 
-      .sidebar.mobile-expanded {
-        height: 45vh;
-        overflow-y: auto;
-        overscroll-behavior: contain;
-      }
-      .sidebar.mobile-expanded .mobile-panel-toggle {
-        position: sticky;
-        top: 0;
-        z-index: 2;
-      }
-      .sidebar.mobile-expanded .mobile-panel-toggle svg { transform: rotate(180deg); }
-      .sidebar.mobile-expanded .controls { padding: 1rem; border-bottom: 1px solid var(--border); }
-      .sidebar.mobile-expanded .pins-section {
-        display: block;
-        flex: 0 0 auto;
-        overflow: visible;
-        padding: 1rem;
-      }
-      .sidebar.mobile-expanded .distance-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-      .sidebar.mobile-expanded .distance-grid button { min-height: 0; padding: 0.7rem; font-size: 0.85rem; line-height: normal; }
-      .sidebar.mobile-expanded .distance-grid button.btn-accent { grid-column: 1 / -1; }
+    @media (max-width: 420px) {
+      body.compact-layout header { padding: 0.65rem 0.8rem; }
+      body.compact-layout .sidebar { left: 8px; right: 8px; bottom: 8px; }
+      body.compact-layout .controls { padding: 0.6rem 0.8rem 0.7rem; }
+      body.compact-layout .distance-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    body.compact-layout.mobile-panel-top .sidebar {
+      top: 12px;
+      bottom: auto;
+    }
+    @media (max-width: 420px) {
+      body.compact-layout.mobile-panel-top .sidebar { top: 8px; }
     }
 
     .leaflet-popup-content-wrapper { background: var(--panel-bg); color: var(--text-main); border-radius: 8px; border: 1px solid var(--border); box-shadow: var(--shadow); }
@@ -191,12 +213,11 @@
       aria-controls="filter-controls pins-section"
     >
       <span class="mobile-panel-toggle__copy">
-        <span class="mobile-panel-toggle__title">Filtros do mapa</span>
-        <span class="mobile-panel-toggle__hint" id="mobile-panel-toggle-hint">Expandir pesquisa e pins</span>
+        <span class="mobile-panel-toggle__title">Buscar cidade</span>
+        <span class="mobile-panel-toggle__hint" id="mobile-panel-toggle-hint">Abrir pesquisa</span>
       </span>
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
     </button>
-
     <div class="controls" id="filter-controls">
       <div class="field search-field">
         <label>1. Buscar Cidade / País</label>
@@ -309,8 +330,32 @@ const mobilePanelToggle = document.getElementById('mobile-panel-toggle');
 const mobilePanelToggleHint = document.getElementById('mobile-panel-toggle-hint');
 
 mobilePanelToggle.addEventListener('click', () => {
-  setMobilePanelExpanded(!sidebar.classList.contains('mobile-expanded'));
+  const searchOpen = !sidebar.classList.contains('mobile-search-open');
+  sidebar.classList.toggle('mobile-search-open', searchOpen);
+  mobilePanelToggle.setAttribute('aria-expanded', String(searchOpen));
+  mobilePanelToggleHint.textContent = searchOpen ? 'Fechar pesquisa' : 'Abrir pesquisa';
+
+  window.setTimeout(() => {
+    if (map && typeof map.invalidateSize === 'function') map.invalidateSize();
+  }, 220);
 });
+
+const compactViewport = window.matchMedia('(max-width: 1024px), (max-width: 1440px) and (pointer: coarse)');
+
+function updateResponsiveMode() {
+  const compact = compactViewport.matches;
+  document.body.classList.toggle('compact-layout', compact);
+  document.body.classList.toggle(
+    'mobile-panel-top',
+    compact && window.innerHeight < window.innerWidth * 2
+  );
+
+  if (map && typeof map.invalidateSize === 'function') map.invalidateSize();
+}
+
+window.addEventListener('resize', updateResponsiveMode, { passive: true });
+window.addEventListener('orientationchange', updateResponsiveMode);
+updateResponsiveMode();
 
 cityInput.addEventListener('input', handleCityInput);
 cityInput.addEventListener('focus', () => {
@@ -339,18 +384,6 @@ map.on('click', hideAutocomplete);
 
 updateSidebar();
 loadCities();
-
-function setMobilePanelExpanded(expanded) {
-  sidebar.classList.toggle('mobile-expanded', expanded);
-  mobilePanelToggle.setAttribute('aria-expanded', String(expanded));
-  mobilePanelToggleHint.textContent = expanded
-    ? 'Recolher pesquisa e pins'
-    : 'Expandir pesquisa e pins';
-
-  window.setTimeout(() => {
-    if (map && typeof map.invalidateSize === 'function') map.invalidateSize();
-  }, 220);
-}
 
 function createMapPanes() {
   map.createPane('radiusPane');
